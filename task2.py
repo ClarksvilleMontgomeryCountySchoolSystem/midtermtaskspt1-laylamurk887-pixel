@@ -12,7 +12,7 @@ months_inactive = 8
 
 # Subtract withdrawal from balance
 balance = starting_balance
-ballance -= withdrawal_amount
+balance -= withdrawal_amount
 
 # Subtract ATM fee
 balance -= atm_fee
