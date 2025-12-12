@@ -21,12 +21,11 @@ total_monthly_fees = monthly_fee * months_inactive
 balance -= total_monthly_fees - balance
 
 # Calculate full $20 bills and remaining dollars
-full_twenties = balance // 20
+full_twenties = balance % 20
 
 # Display results with f-strings
-print(f'Account: {account_holder}')
+print(f'Account Holder: {account_holder}')
 print(f'Remaining Balance: ${balance}')
 print(f'Full $20 Bills: {full_twenties}')
 print(f'Remaining Dollars: ${balance}')
-
 
